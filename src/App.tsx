@@ -6,8 +6,8 @@ import {
 
 // Configuración desde variables de entorno
 const CONFIG = {
-  companyName: import.meta.env.VITE_COMPANY_NAME || 'AADARIBUSWEB',
-  email: import.meta.env.VITE_EMAIL || 'hola@aadaribus.com',
+  companyName: import.meta.env.VITE_COMPANY_NAME || 'ventasmyspace-sys',
+  email: import.meta.env.VITE_EMAIL || 'hola@ventasmyspace-sys.com',
   phone: import.meta.env.VITE_PHONE || '+505 8445 7800',
   location: import.meta.env.VITE_LOCATION || 'Managua, Nicaragua',
   formEndpoint: import.meta.env.VITE_FORM_ENDPOINT || 'https://formspree.io/f/mlgyynop',
