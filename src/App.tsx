@@ -6,8 +6,8 @@ import {
 
 // Configuración desde variables de entorno
 const CONFIG = {
-  companyName: import.meta.env.VITE_COMPANY_NAME || 'ventasmyspace-sys',
-  email: import.meta.env.VITE_EMAIL || 'hola@ventasmyspace-sys.com',
+  companyName: import.meta.env.VITE_COMPANY_NAME || 'ventasmyspace',
+  email: import.meta.env.VITE_EMAIL || 'aadaribusweb@ventasmyspace.com',
   phone: import.meta.env.VITE_PHONE || '+505 8445 7800',
   location: import.meta.env.VITE_LOCATION || 'Managua, Nicaragua',
   formEndpoint: import.meta.env.VITE_FORM_ENDPOINT || 'https://formspree.io/f/mlgyynop',
@@ -685,7 +685,7 @@ function Footer() {
             <span className="font-serif text-lg tracking-[0.25em] text-[#F8F4EE]/60 font-light">AADARIBUS</span>
           </div>
           <p className="text-[#8C8070] text-xs tracking-wider text-center">
-            © {new Date().getFullYear()} AADARIBUSWEB. Todos los derechos reservados.
+            © {new Date().getFullYear()} Ventas My Space. Todos los derechos reservados.
           </p>
           <nav className="flex gap-6" aria-label="Enlaces legales">
             {['Privacidad', 'Términos', 'Sitemap'].map((l) => (
